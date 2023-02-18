@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style>
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    form  { 
+        display: table;   
+        border: 1px solid black; 
+        padding: 15px;  
+        border-radius: 10px;
+    }
+    p     {
+         display: table-row; 
+         }
+    label { 
+        display: table-cell; 
+        
+    }
+    input { 
+        display: table-cell; 
+        }
+        .forms{
+            padding-left: 400px;
+
+
+        }
+        .button{
+           padding-left: 120px;
+            
+        }
+</style>
+<body>
+    <div style="text-align:center; padding-top: 100px;font-weight: bolder; font-size: 20px; ">Contact Us</div><br>
+    <div class="forms">
+        <form>
+            <p>
+                <label for="fname">First name: </label>
+            <input type="text" name="fname" placeholder="fname" required>
+            </p><br>
+            <p>
+                <label for="lname">Last name (optional): </label>
+            <input type="text" name="lname" id="" placeholder="lname"><br>
+            </p><br>
+            <p>
+                <label for="email"> Enter your Mail id : </label>
+            <input type="email" name="email" id="" placeholder="mail id" required><br>
+            </p><br>
+            <p>
+                <label for="passwd">Password : </label>
+            <input type="password" name="passwd" id="" placeholder="*****"><br>
+            </p><br>
+            <p>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" id="Male" value="Male"><span>Male</span>
+            
+            <input type="radio" name="gender" id="Female" value="Female"><span>Female</span>
+            
+            </p><br>
+            <p>
+                <label for="phone">Mobile No : </label>
+            <input type="tel" name="phone" id="" placeholder="+91 12389 45678 " required><br>
+            </p><br>
+            
+            <p>
+                <label for="dept">Department : </label>
+            <select name="dept" id="">
+                <option value="CSE">Computer Science Engineering</option>
+                <option value="IT">Infromation Technology</option>
+                <option value="AIDS">Artificial Intelligence and Data Science</option>
+                <option value="AIML">Artificial Intelligence and Machine Learning</option>
+                <option value="ECE">Electronics and Communication Engineering</option>
+            </select>
+            </p><br>
+            <p>
+                <label for="github">Github Id : </label>
+            <input type="url" name="github" id="" placeholder="github.com/abc"><br>
+            </p><br>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html> 
+
